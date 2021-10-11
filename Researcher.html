@@ -1,0 +1,236 @@
+<html>
+    <head>
+        <title>Researcher home</title>
+        <link rel="stylesheet" href="Researcher.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src='main.js'></script>
+
+    </head>
+    <body>
+
+        <div class="row row1">
+
+            <img class="logo" src="img/nse_logo.svg">
+            <div class="rd">Researcher Dashboard</div>
+              <div class="dropdown">
+                <button class="dropbtn">Ken Adams<img src="img/down-arrow.png"><br><small>Researcher</small></button>
+                <div class="dropdown-content">
+                  <a id="link1" href="#"><img src="img/padlock.png">Change Password</a>
+                  <a id="link1" href="#"><img src="img/logout.png">Logout</a>
+                </div>
+              </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-2 nse_nav">
+                <div class="home mt-3 p-2">
+                    <a id="link" href="login.html"><img src="img/ic_home.svg"> &nbsp Home</a>
+                </div>
+                <div class="req mt-2 p-2">
+                    <a id="link" href="Request_detail.html"><img src="img/ic_inbox.svg"> &nbsp Request</a>
+                </div>
+                <div class="grp mt-2 p-2">
+                    <a id="link" href="#"><img src="img/group.png"> &nbsp Groups</a>
+                </div>
+            </div>
+
+            <div class="col-10 nse_bg">
+
+                <div class="ov mt-4 mb-4">Overview</div>
+                <div class="ov_inner">
+                    <div class="row">
+                        <div class="col-2 ml-3 txt">
+                          Name<br>Email<br>Designation
+                        </div>
+                        <div class="col-3">
+                          Ken Adams<br>example@123.com<br>Researcher
+                        </div>
+                        <div class="col-2 txt">
+                            Registered On
+                        </div>
+                        <div class="col-3">
+                            27-Mar-2021
+                        </div>  
+                      </div>
+                </div>
+
+                <div class="sc mt-4 mb-4">System Configuration</div>
+                <div class="row">
+                    <div class="col-2 col-xs col-sm-2 col-md-2 col-lg-1 os text-center ml-3 txt">
+                        <div class="text-left">OS</div><a href="Request_detail.html"><img src="img/Icon metro-windows.svg"></a><br>
+                        <p class="text-center">Windows</p>
+                    </div>
+
+                    <div class="col-5 col-xs col-sm-6 col-md-7 col-lg-6 ">
+                        <div class="row">
+                            <div class="col col-xs-12 col-md col-sm storage txt">
+                                <div class="d-flex">
+                                    <div class="ml-2 text-left">
+                                        <div class="mt-1">Storage</div> <p>350 GB</p>
+                                    </div>
+                                    <div class="ml-2 text-right"> <a href="Request_detail.html"><img src="img/disc.svg"></a></div>
+                                </div>
+                            </div>
+                            <div class="col col-xs-12 col-md col-sm ram txt">
+                                <div class="d-flex">
+                                    <div class="ml-2 text-left">
+                                        <div class="mt-1">RAM</div><p>13 GB</p>
+                                    </div>
+                                    <div class="text-right"><a href="Request_detail.html"><img src="img/smartphone-ram.svg"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="row">
+                            <div class="col col-xs-12 col-md col-sm cpu txt">
+                                <div class="d-flex">
+                                    <div class="ml-2 text-left">
+                                        <div class="mt-1">CPU</div><p>4 CORE</p>
+                                    </div>
+                                    <div class="text-right"><a href="Request_detail.html"><img src="img/Icon feather-cpu.svg"></a></div>
+                                </div>
+                            </div>
+                            <div class="col col-xs-12 col-md col-sm expiry txt">
+                                <div class="d-flex">
+                                    <div class="ml-2 text-left">
+                                        <div class="mt-1">Expiry</div><p>27-3-21</p>
+                                    </div>
+                                    <div class="text-right"><a href="Request_detail.html"><img src="img/calendar-today.svg"></a></div>
+                                </div>
+                            </div>
+                        </div>  
+                            
+                    </div>
+                </div>
+                
+                <div class="pi mt-4 mb-4">Path Information</div>
+                <div class="pi_inner">
+                    <div class="p ml-4">Cloud Storage Workspace Path</div>
+                    <div class="ml-4 mt-2">
+                        <div class="row">
+                            <div class="p_bg">nse-dataroom.user1_bq_workspace</div>
+                            <div class="ml-2 p_bg1"><img src="img/link.png"></div>
+                            <div class="ml-2 p_bg1"><img src="img/newtab.png"></div>
+                        </div>
+                    </div>
+                    <div class="p ml-4">BigQuery Dataset Path</div>
+                    <div class="ml-4 mt-2">
+                        <div class="row">
+                            <div class="p_bg">nse-dataroom.user1_bq_workspace</div>
+                            <div class="ml-2 p_bg1"><img src="img/link.png"></div>
+                            <div class="ml-2 p_bg1"><img src="img/newtab.png"></div>
+                        </div>
+                    </div>
+                    <div class="p ml-4">SFTP Home Path</div>
+                    <div class="ml-4 mt-2">
+                        <div class="row">
+                            <div class="p_bg">/user1/</div>
+                            <div class="ml-2 p_bg1"><img src="img/link.png"></div>
+                            <div class="ml-2 p_bg1"><img src="img/newtab.png"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ad mt-4 mb-4">Allocated Data Details</div>
+                <div class="ad_inner">
+                    <div class="row">
+                        <div class="col-2 ml-3 txt">
+                          From<br>Till
+                        </div>
+                        <div class="col-3">
+                            27-Aug-2019<br>27-Mar-2021
+                        </div>
+                        <div class="col-2 txt">
+                            Attributes
+                        </div>
+                        <div class="col-3">
+                            Name, Date, Time, Location, Amount, Credit, Debit, Rate
+                        </div>  
+                    </div>
+                </div>
+
+                <div class="sd mt-4">Software Details</div>
+                <div class="sd_inner">
+                    <div class="row mt-3 ml-2">
+                        <div class="col-4 txt mt-3">
+                            <strong>Name</strong>
+                        </div>
+                        <div class="col mt-3 txt">
+                            <strong>Version</strong>
+                        </div>
+                    </div>
+                    <div class="hr ml-4"><hr/></div>
+                    <div class="row">
+                        <div class="col-4 ml-4 txt1">
+                            Python
+                        </div>
+                        <div class="col txt1">
+                            3.5.10
+                        </div>
+                    </div>
+                    <div class="hr ml-4"><hr/></div>
+                    <div class="row">
+                        <div class="col-4 ml-4 txt1">
+                            Anaconda
+                        </div>
+                        <div class="col txt1">
+                            4.3.8
+                        </div>
+                    </div>
+                    <div class="hr ml-4"><hr/></div>
+                    <div class="row">
+                        <div class="col-4 ml-4 txt1">
+                            Julia
+                        </div>
+                        <div class="col txt1">
+                            1.5.4
+                        </div>
+                    </div>
+                    <div class="hr ml-4"><hr/></div>
+                    <div class="row">
+                        <div class="col-4 ml-4 txt1">
+                            datagrip
+                        </div>
+                        <div class="col txt1">
+                            2020.3
+                        </div>
+                    </div>
+                    <div class="hr ml-4"><hr/></div>
+                    <div class="row">
+                        <div class="col-4 ml-4 txt1">
+                            R
+                        </div>
+                        <div class="col txt1">
+                            4.0.4
+                        </div>
+                    </div>
+                    <div class="hr ml-4"><hr/></div>
+                     <div class="row">
+                        <div class="col-4 ml-4 txt1">
+                            Go
+                        </div>
+                        <div class="col txt1">
+                            1.13s
+                        </div>
+                    </div>
+
+
+            </div>
+        </div>
+    </body>
+</html>

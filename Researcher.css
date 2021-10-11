@@ -1,0 +1,1128 @@
+.row1{
+    background: white;
+    box-shadow: 0px 1px 5px #00000014;
+}
+.nse_nav{
+    background: white;
+    box-shadow: 0px 0px 1px #00000019;
+    opacity: 1;
+}
+.nse_bg{
+    height: 195vh;
+    background: #F4F7FC 0% 0% no-repeat padding-box;;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 90px;
+    height: 40px;
+}
+.rd{
+    font-size: 23px;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-weight: 500;
+    width: 270px;
+    height: 30px;
+}
+.dropbtn {
+    font-weight: 600;
+    background-color: #FFFFFF;
+    color: rgb(109, 102, 102);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropbtn img{
+      margin-left: 10px;
+      width: 10px;
+      height: 10px;
+  }
+  .dropbtn small{
+      color: rgb(204, 192, 192);
+      font-size: 10px;
+      margin-right: 50px;
+  }
+  
+  .dropdown {
+    margin-left: 650px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 130px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: darkgrey;
+    font-size: 11px;
+    padding: 7px 7px;
+    display: block;
+  }
+  .dropdown-content img{
+      margin-right: 5px;
+      width: 17px;
+      height: 17px;
+  }
+  #link1{
+    display: block;
+    color: #7E84A3;
+    text-decoration: none;
+  }
+  #link1:hover{
+      color: black;
+  }
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.home img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.home:hover{
+    background-color: #F4F7FC;
+}
+#link{
+    font-weight: 500;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+.req img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+
+}
+.req:hover{
+    background-color: #F4F7FC;
+}
+.grp img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+
+}
+.grp:hover{
+    background-color: #F4F7FC;
+}
+.txt{
+    letter-spacing: 0.17px;
+    color: #7E84A3;
+    opacity: 1;
+}
+.ov{
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 3px;
+    letter-spacing: 0.03px;
+    color: #7E84A3;
+    opacity: 1;    
+}
+.ov_inner{
+    padding-top: 5px;
+    height: 12vh;
+    width: 60%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    font-weight: 500;
+    font-size: 14px;
+}
+.sc{
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 3px;
+    letter-spacing: 0.03px;
+    color: #7E84A3;
+    opacity: 1;    
+}
+.os{
+    font-weight: 500;
+    font-size: 14px;
+    padding-top: 5px;
+    height: 22vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.os img{
+    width: 70%;
+    height: 60%;
+}
+.os p{
+    font: normal normal large 36px/48px IBM Plex Sans;
+    font-weight: 650;
+    color: black;
+    font-size: 16px;
+    margin-top: 8px;
+    letter-spacing: 0.93px;
+}
+.storage{
+    font-weight: 500;
+    font-size: small;
+    margin-left: 20px;
+    height: 10vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.storage img{
+    margin-left: 25px;
+    margin-top: 6px;
+    width: 55%;
+    height: 55%;
+}
+.storage p{
+    font: normal normal large 36px/48px IBM Plex Sans;
+    font-weight: 650;
+    color: black;
+    font-size: 19px;
+    margin-top: 10px;
+    letter-spacing: 0.93px;
+}
+.ram{
+    font-weight: 500;
+    font-size: small;
+    margin-left: 20px;
+    height: 10vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.ram img{
+    margin-left: 25px;
+    margin-top: 7px;
+    width: 50%;
+    height: 60%;
+}
+.ram p{
+    font: normal normal large 36px/48px IBM Plex Sans;
+    font-weight: 650;
+    color: black;
+    font-size: 19px;
+    margin-top: 10px;
+    letter-spacing: 0.93px;
+}
+.cpu{
+    font-weight: 500;
+    font-size: small;
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 10vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.cpu img{
+    margin-left: 40;
+    margin-top: 6px;
+    width: 60%;
+    height: 55%;
+}
+.cpu p{
+    font: normal normal large 36px/48px IBM Plex Sans;
+    font-weight: 650;
+    color: black;
+    font-size: 19px;
+    margin-top: 10px;
+    letter-spacing: 0.93px;
+}
+.expiry{
+    font-weight: 500;
+    font-size: small;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 10vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.expiry img{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 55%;
+    height: 55%;
+}
+.expiry p{
+    font: normal normal large 36px/48px IBM Plex Sans;
+    font-weight: 650;
+    font-size: 19px;
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+    letter-spacing: 0.93px;
+}
+.pi{
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 3px;
+    letter-spacing: 0.03px;
+    color: #7E84A3;
+    opacity: 1; 
+    margin-bottom: 20px;
+}
+.pi_inner{
+    font-weight: 500;
+    padding-top: 1px;
+    height: 35vh;
+    width: 60%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.p{
+    font-size: 14px;
+    margin-top: 20px;
+    letter-spacing: 0.17px;
+    color: #000000;
+    opacity: 1;
+}
+.p_bg{
+    width: 40%;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 65%;
+    font-weight: lighter;
+    letter-spacing: 0.11px;
+    color: #000000;
+    background: #F4F7FC 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.p_bg1{
+    padding: 5px;
+    padding-left: 5px;
+    background: #F4F7FC 0% 0% no-repeat padding-box;
+}
+.p_bg1 img{
+    width: 15px;
+    height: 12px;
+}
+.ad{
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 3px;
+    letter-spacing: 0.03px;
+    color: #7E84A3;
+    opacity: 1;    
+}
+.ad_inner{
+    font-weight: 500;
+    padding-top: 5px;
+    font-size: 14px;
+    height: 12vh;
+    width: 60%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.sd{
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 3px;
+    letter-spacing: 0.03px;
+    color: #7E84A3;
+    opacity: 1; 
+}
+.sd_inner{
+    font-weight: 500;
+    font-size: 14px;
+    height: 57vh;
+    width: 60%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.sd_inner strong{
+    font-size: 16px;
+}
+.hr{
+    width: 55%;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+    .nse_bg{
+        height: 250vh;
+    }
+    .txt{
+        font-size: 10px;
+        letter-spacing: 0.17px;
+        color: #7E84A3;
+        opacity: 1;
+    }
+    .logo{
+        margin-top: 15px;
+        margin-left: 23px;
+        width: 42px;
+        height: 40px;
+    }
+    .rd{
+        font-size: 15px;
+        margin-top: 22px;
+        margin-left: 40px;
+        width: 152px;
+        height: 40px;
+    }
+    .dropdown{
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .dropbtn {
+        font-weight: 600;
+        padding: 10px;
+        font-size: 14px;
+        border: none;
+      }
+      .dropbtn small{
+        font-size: 8px;
+        margin-right: 50px;
+    }
+    #link{
+        margin-left: 2px;
+        font-size: 12px;
+    }
+    .ov{
+        font-size: 10px;
+    }
+    .ov_inner{
+        height: 10vh;
+        width: 90%;
+        font-size: 10px;
+    }
+    .sc{
+        font-size: 10px;
+    }
+    .os{
+        font-size: 10px;
+        height: 20vh;
+    }
+    .os p{
+        font-size: 8px;
+    }
+    .os img{
+        width: 40px;
+        height: 80px;
+    }
+    .os p{
+        font-size: 10px;
+        margin-top: 2px;
+    }   
+    .storage{
+        font-size: 10px;
+        margin-left: 20px;
+        height: 10vh;
+    }
+    .storage img{
+        width: 30px;
+        height: 40px;
+    }
+    .storage p{
+        font-size: 10px;
+        margin-top: 2px;
+    }    
+    .ram{
+        font-size: 10px;
+        margin-left: 20px;
+        margin-top: 15px;
+        height: 10vh;
+    }
+    .ram img{
+        width: 40px;
+        height: 40px;
+    }
+    .ram p{
+        font-size: 10px;
+        margin-top: 2px;
+    }    
+    .cpu{
+        font-size: 10px;
+        margin-left: 20px;
+        margin-top: 15px;
+        height: 10vh;
+    }
+    .cpu img{
+        width: 30px;
+        height: 40px;
+    }
+    .cpu p{
+        font-size: 10px;
+        margin-top: 2px;
+    }
+    .expiry{
+        font-size: 10px;
+        margin-top: 15px;
+        margin-left: 20px;
+        height: 10vh;
+    }
+    .expiry img{
+        width: 30px;
+        height: 40px;
+    }
+    .expiry p{
+        font-size: 10px;
+        margin-top: 2px;
+    }
+    .pi{
+        font-size: 10px;
+    }
+    .pi_inner{
+        font-size: 10px;
+        height: 42vh;
+        width: 90%;
+    }
+    .p{
+        font-size: 11px;
+    }
+    .p_bg{
+        width: 55%;
+    }
+    .p_bg1 img{
+        width: 8px;
+        height: 8px;
+    }
+    .ad{
+        font-size: 10px;
+    }
+    .ad_inner{
+        font-size: 10px;
+        height: 20vh;
+        width: 90%;
+    }
+    .sd{
+        font-size: 10px;
+        
+    }
+    .sd_inner{
+        font-size: 10px;
+        height: 65vh;
+        width: 90%;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width:481px) and (max-width: 576px) {
+    .nse_bg{
+        height: 230vh;
+    }
+    .txt{
+        font-size: 10px;
+        letter-spacing: 0.17px;
+        color: #7E84A3;
+        opacity: 1;
+    }
+    .logo{
+        margin-top: 10px;
+        margin-left: 30px;
+        width: 50px;
+        height: 40px;
+    }
+    .rd{
+        font-size: 16px;
+        margin-top: 16px;
+        margin-left: 40px;
+        width: 200px;
+        height: 25px;
+    }
+    .dropdown{
+        margin-left: 80px;
+    }
+    .dropbtn {
+        margin-top: 5px;
+        font-weight: 600;
+        padding: 6px;
+        font-size: 14px;
+      }
+      .dropbtn small{
+        font-size: 10px;
+        margin-right: 50px;
+    }
+    #link{
+        font-size: 12px;
+    }
+    .ov{
+        font-size: 11px;
+    }
+    .ov_inner{
+        height: 13vh;
+        width: 75%;
+        font-size: 10px;
+    }
+    .sc{
+        font-size: 10px;
+    }
+    .os{
+        height: 25vh;
+    }
+    .os img{
+        width: 100%;
+        height: 60%;
+    }
+    .os p{
+        font-size: 10px;
+        margin-top: 2px;
+    }    
+    .storage{
+        margin-left: 20px;
+        height: 10vh;
+    }
+    .storage img{
+        width: 50%;
+        height: 40%;
+    }
+    .storage p{
+        font-size: 10px;
+        margin-top: 2px;
+    }    
+    .ram{
+        margin-left: 20px;
+        margin-top: 15px;
+        height: 10vh;
+    }
+    .ram img{
+        width: 50%;
+        height: 40%;
+    }
+    .ram p{
+        font-size: 10px;
+        margin-top: 2px;
+    }    
+    .cpu{
+        margin-left: 20px;
+        margin-top: 15px;
+        height: 10vh;
+    }
+    .cpu img{
+        width: 40%;
+        height: 50%;
+    }
+    .cpu p{
+        font-size: 10px;
+        margin-top: 2px;
+    }
+    .expiry{
+        margin-top: 15px;
+        margin-left: 20px;
+        height: 10vh;
+    }
+    .expiry img{
+        width: 40%;
+        height: 50%;
+    }
+    .expiry p{
+        font-size: 10px;
+        margin-top: 2px;
+    }
+    .pi{
+        font-size: 10px;
+    }
+    .pi_inner{
+        font-size: 10px;
+        height: 40vh;
+        width: 75%;
+    }
+    .p{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .p_bg{
+        width: 50%;
+        padding: 5px;
+        margin-left: 10px;
+        font-size: 65%;
+    }
+    .p_bg1{
+        padding: 5px;
+        padding-left: 5px;
+    }
+    .p_bg1 img{
+        width: 10px;
+        height: 10px;
+    }
+    .ad{
+        font-size: 10px;
+    }
+    .ad_inner{
+        font-size: 10px;
+        height: 20vh;
+        width: 75%;
+    }
+    .sd{
+        font-size: 10px;
+        
+    }
+    .sd_inner{
+        font-size: 10px;
+        height: 70vh;
+        width: 75%;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    .nse_bg{
+        height: 230vh;
+    }
+    .txt{
+        font-size: 10px;
+        letter-spacing: 0.17px;
+        color: #7E84A3;
+        opacity: 1;
+    }
+    
+    .logo{
+        margin-top: 10px;
+        margin-left: 27px;
+        width: 60px;
+        height: 40px;
+    }
+    .rd{
+        font-size: 18px;
+        margin-top: 15px;
+        margin-left: 32px;
+        width: 215px;
+        height: 30px;
+    }
+    .dropdown{
+        margin-left: 155px;
+    }
+    .dropbtn {
+        font-weight: 600;
+        padding: 8px;
+        font-size: 15px;
+      }
+      .dropbtn small{
+        font-size: 10px;
+        margin-right: 50px;
+    }
+    #link{
+        font-size: 12px;
+    }
+    .ov{
+        font-size: 11px;
+    }
+    .ov_inner{
+        height: 13vh;
+        width: 75%;
+        font-size: 11px;
+    }
+    .sc{
+        font-size: 11px;
+    }
+    .os{
+        height: 22vh;
+    }
+    .os img{
+        width: 90%;
+        height: 100;
+    }
+    .os p{
+        font-size: 15px;
+        margin-top: 2px;
+    }
+    .storage{
+        margin-left: 20px;
+        height: 10vh;
+    }
+    .storage img{
+        width: 50%;
+        height: 50%;
+    }
+    .storage p{
+        font-size: 12px;
+        margin-top: 2px;
+    }  
+    .ram{
+        margin-left: 20px;
+        height: 10vh;
+    }
+    .ram img{
+        width: 40%;
+        height: 50%;
+    }
+    .ram p{
+        font-size: 12px;
+        margin-top: 2px;
+    }    
+    .cpu{
+        margin-left: 20px;
+        margin-top: 15px;
+        height: 10vh;
+    }
+    .cpu img{
+        width: 40%;
+        height: 50%;
+    }
+    .cpu p{
+        font-size: 12px;
+        margin-top: 2px;
+    }
+    .expiry{
+        margin-top: 15px;
+        margin-left: 20px;
+        height: 10vh;
+    }
+    .expiry img{
+        width: 40%;
+        height: 40%;
+    }
+    .expiry p{
+        font-size: 12px;
+        margin-top: 2px;
+    }
+    .pi{
+        font-size: 11px;
+    }
+    .pi_inner{
+        font-size: 11px;
+        height: 40vh;
+        width: 75%;
+    }
+    .p{
+        font-size: 11px;
+        margin-top: 20px;
+    }
+    .p_bg{
+        width: 50%;
+        padding: 5px;
+        margin-left: 10px;
+        font-size: 65%;
+    }
+    .p_bg1{
+        padding: 5px;
+        padding-left: 5px;
+    }
+    .p_bg1 img{
+        width: 10px;
+        height: 10px;
+    }
+    .ad{
+        font-size: 11px;
+    }
+    .ad_inner{
+        font-size: 11px;
+        height: 20vh;
+        width: 75%;
+    }
+    .sd{
+        font-size: 11px;
+        
+    }
+    .sd_inner{
+        font-size: 11px;
+        height: 70vh;
+        width: 75%;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width:769px) and (max-width: 992px){
+    .nse_bg{
+        height: 260vh;
+    }
+    .txt{
+        font-size: 11px;
+        letter-spacing: 0.17px;
+        color: #7E84A3;
+        opacity: 1;
+    }
+    .logo{
+        margin-top: 13px;
+        margin-left: 35px;
+        width: 70px;
+        height: 30px;
+    }
+    .rd{
+        font-size: 20px;
+        margin-top: 12px;
+        margin-left: 50px;
+        font-weight: 500;
+        width: 250px;
+        height: 30px;
+    }
+    .dropdown{
+        margin-left: 270px;
+    }
+    .dropbtn {
+        font-weight: 600;
+        padding: 8px;
+        font-size: 16px;
+      }
+      .dropbtn small{
+        font-size: 11px;
+        margin-right: 50px;
+    }
+    #link{
+        font-size: 13px;
+    }
+    .ov{
+        font-size: 14px;
+    }
+    .ov_inner{
+        height: 12vh;
+        width: 80%;
+        font-size: 13px;
+    }
+    .sc{
+        font-size: 14px;
+    }
+    .os{
+        height: 27vh;
+    }
+    .os img{
+        width: 90%;
+        height: 60%;
+    }
+    .os p{
+        font-size: 12px;
+        margin-top: 5px;
+    }   
+    .storage{
+        margin-left: 20px;
+        height: 12vh;
+    }
+    .storage img{
+        width: 50%;
+        height: 60%;
+    }
+    .storage p{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .ram{
+        margin-left: 20px;
+        height: 12vh;
+    }
+    .ram img{
+        width: 50%;
+        height: 60%;
+    }
+    .ram p{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .cpu{
+        margin-left: 20px;
+        margin-top: 15px;
+        height: 12vh;
+    }
+    .cpu img{
+        width: 45%;
+        height: 60%;
+    }
+    .cpu p{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .expiry{
+        margin-top: 15px;
+        margin-left: 20px;
+        height: 12vh;
+    }
+    .expiry img{
+        width: 60%;
+        height: 50%;
+    }
+    .expiry p{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .pi{
+        font-size: 14px;
+    }
+    .pi_inner{
+        font-size: 14px;
+        height: 50vh;
+        width: 80%;
+    }
+    .p{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .p_bg{
+        width: 50%;
+        padding: 5px;
+        margin-left: 10px;
+        font-size: 65%;
+    }
+    .p_bg1 img{
+        width: 10px;
+        height: 10px;
+    }
+    .ad{
+        font-size: 14px;
+    }
+    .ad_inner{
+        font-size: 14px;
+        height: 20vh;
+        width: 80%;
+    }
+    .sd{
+        font-size: 14px;
+        
+    }
+    .sd_inner{
+        font-size: 14px;
+        height: 80vh;
+        width: 80%;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width:993px) and (max-width: 1290px){
+    .nse_bg{
+        height: 210vh;
+    }
+    
+    .logo{
+        margin-top: 12px;
+        margin-left: 48px;
+        width: 85px;
+        height: 31px;
+    }
+    .rd{
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 66px;
+        font-weight: 500;
+        width: 262px;
+        height: 30px;
+    }
+    .dropdown{
+        margin-left: 400px;
+    }
+    .dropbtn {
+        font-weight: 600;
+        padding: 8px;
+        font-size: 16px;
+      }
+      .dropbtn small{
+        font-size: 11px;
+        margin-right: 50px;
+    }
+    #link{
+        font-size: 16px;
+    }
+    .ov{
+        font-size: 15px;
+    }
+    .ov_inner{
+        height: 12vh;
+        width: 60%;
+        font-size: 15px;
+    }
+    .sc{
+        font-size: 15px;
+    }
+    .os{
+        height: 22vh;
+    }
+    .os img{
+        width: 90%;
+        height: 60%;
+    }
+    .os p{
+        font-size: 12px;
+        margin-top: 2px;
+    }   
+    .storage{
+        margin-left: 20px;
+        height: 10vh;
+    }
+    .storage img{
+        width: 40%;
+        height: 50%;
+    }
+    .storage p{
+        font-size: 15px;
+        margin-top: 2px;
+    }   
+    .ram{
+        margin-left: 20px;
+        height: 10vh;
+    }
+    .ram img{
+        width: 40%;
+        height: 60%;
+    }
+    .ram p{
+        font-size: 15px;
+        margin-top: 2px;
+    }
+    .cpu{
+        margin-left: 20px;
+        margin-top: 15px;
+        height: 10vh;
+    }
+    .cpu img{
+        margin-left: 40px;
+        width: 50%;
+        height: 50%;
+    }
+    .cpu p{
+        font-size: 15px;
+        margin-top: 2px;
+    }   
+    .expiry{
+        margin-top: 15px;
+        margin-left: 20px;
+        height: 10vh;
+    }
+    .expiry img{
+        width: 40%;
+        height: 50%;
+    }
+    .expiry p{
+        font-size: 15px;
+        margin-top: 4px;
+    }   
+    .pi{
+        font-size: 15px;
+    }
+    .pi_inner{
+        font-size: 15px;
+        height: 45vh;
+        width: 60%;
+    }
+    .p{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .p_bg{
+        width: 50%;
+        padding: 5px;
+        margin-left: 10px;
+        font-size: 65%;
+    }
+    .p_bg1 img{
+        width: 10px;
+        height: 10px;
+    }
+    .ad{
+        font-size: 15px;
+    }
+    .ad_inner{
+        font-size: 15px;
+        height: 20vh;
+        width: 60%;
+    }
+    .sd{
+        font-size: 15px;
+        
+    }
+    .sd_inner{
+        font-size: 15px;
+        height: 60vh;
+        width: 60%;
+    }
+}
+
+
+
+
